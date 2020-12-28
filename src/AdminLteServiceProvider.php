@@ -181,6 +181,7 @@ class AdminLteServiceProvider extends BaseServiceProvider
 
         $this->loadViewComponentsAs('adminlte', [
             Components\Alert::class,
+            Components\Breadcrumb::class,
             Components\Callout::class,
             Components\Card::class,
             Components\Datatable::class,
